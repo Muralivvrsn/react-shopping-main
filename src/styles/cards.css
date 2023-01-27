@@ -1,0 +1,51 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+}
+.details{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.cards{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.image_box img{
+    width: 100px;
+    height: 150px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    border-radius: 2px;
+}
+.details button:hover{
+    transition: all 0.3s ease;
+    scale: 1.1;
+}
+.details input{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
